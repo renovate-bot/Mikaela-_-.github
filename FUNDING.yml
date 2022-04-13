@@ -1,1 +1,2 @@
-custom: ["github.com/Mikaela/.github/issues/2"]
+# If no protocol is specified, http:// is assumed.
+custom: ["https://github.com/Mikaela/.github/issues/2"]
