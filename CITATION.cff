@@ -1,8 +1,12 @@
 cff-version: 1.2.0
-title: undefined
+title: GitHub Community Health Files
 message: >-
   If you use this, please cite it using the metadata
   from this file.
 authors:
   - given-names: Aminda
     family-names: Suomalainen
+url: https://github.com/Mikaela/.github
+preferred-citation:
+  # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files#citing-something-other-than-software
+  type: generic
