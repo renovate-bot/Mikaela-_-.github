@@ -10,3 +10,6 @@ url: https://github.com/Mikaela/.github
 preferred-citation:
   # https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files#citing-something-other-than-software
   type: generic
+  authors:
+  - given-names: Aminda
+    family-names: Suomalainen
