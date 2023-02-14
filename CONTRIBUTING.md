@@ -1,8 +1,9 @@
 Contributions are welcomed assuming my repositories are the correct place
 for it (the target is my repository or a PR I have open to another repository).
 
-In case [editorconfig](https://editorconfig.org/) isn't [natively supported](https://editorconfig.org/#pre-installed),
-by your editor of choice, please consider [installing a plugin](https://editorconfig.org/#download).
+In case [editorconfig](https://editorconfig.org/) isn't
+[natively supported by your editor of choice](https://editorconfig.org/#pre-installed),
+please consider [installing a plugin](https://editorconfig.org/#download).  
 E.g. VS Cod{e,ium} users can `CTRL-P` and execute `ext install EditorConfig.EditorConfig`.
 
 Issues being assigned to me doesn't matter, I use that just as a tool for
