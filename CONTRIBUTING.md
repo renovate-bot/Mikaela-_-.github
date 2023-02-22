@@ -14,9 +14,9 @@ from GitHub or `git remote`s to use, the merge might just take a bit longer
 ## General steps
 
 1. In case [editorconfig](https://editorconfig.org/) isn't
-[natively supported by your editor of choice](https://editorconfig.org/#pre-installed),
-please consider [installing a plugin](https://editorconfig.org/#download).  
-E.g. VS Cod{e,ium} users can `CTRL-P` and execute `ext install EditorConfig.EditorConfig`.
+   [natively supported by your editor of choice](https://editorconfig.org/#pre-installed),
+   please consider [installing a plugin](https://editorconfig.org/#download).  
+   E.g. VS Cod{e,ium} users can `CTRL-P` and execute `ext install EditorConfig.EditorConfig`.
 2. If the repository in question has a `.pre-commit-config.yaml` file,
-please install [`pre-commit`](https://pre-commit.com/) and run
-`pre-commit install` in your local clone at least once.
+   please install [`pre-commit`](https://pre-commit.com/) and run
+   `pre-commit install` in your local clone at least once.

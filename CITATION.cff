@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this, please cite it as below."
 authors:
-- family-names: "Suomalainen"
-  given-names: "Aminda"
+  - family-names: "Suomalainen"
+    given-names: "Aminda"
 title: "GitHub Community Health Files"
 url: "https://github.com/Mikaela/.github"
 preferred-citation:
   type: generic
   title: "GitHub Community Health Files"
   authors:
-  - family-names: "Suomalainen"
-    given-names: "Aminda"
+    - family-names: "Suomalainen"
+      given-names: "Aminda"

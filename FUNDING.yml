@@ -1,2 +1,6 @@
 # If no protocol is specified, http:// is assumed.
-custom: ["https://github.com/liberapay/liberapay.org/issues/30", "https://cv.aminda.eu"]
+custom:
+  [
+    "https://github.com/liberapay/liberapay.org/issues/30",
+    "https://cv.aminda.eu",
+  ]
