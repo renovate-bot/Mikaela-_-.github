@@ -20,3 +20,5 @@ from GitHub or `git remote`s to use, the merge might just take a bit longer
 2. If the repository in question has a `.pre-commit-config.yaml` file,
    please install [`pre-commit`](https://pre-commit.com/) and run
    `pre-commit install` in your local clone at least once.
+
+-  [![Packaging status of pre-commit](https://repology.org/badge/vertical-allrepos/python:pre-commit.svg)](https://repology.org/project/python:pre-commit/versions)
