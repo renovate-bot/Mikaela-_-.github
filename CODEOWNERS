@@ -1,1 +1,4 @@
+# PRs touching any file will require my review
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#example-of-a-codeowners-file
+# NOTE: This will not affect other repositories even being in .github :(
 *	@Mikaela
