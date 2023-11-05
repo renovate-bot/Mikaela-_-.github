@@ -1,6 +1,7 @@
 # If no protocol is specified, http:// is assumed.
 custom:
   [
+    "https://sponsor.charitymiles.org/members/56235c75-5d03-4046-9485-c2fef9ade86d",
     "https://github.com/liberapay/liberapay.org/issues/30",
     "https://cv.aminda.eu",
   ]
