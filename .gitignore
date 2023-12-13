@@ -1,0 +1,11 @@
+# All dotfiles
+.*
+# with the exception of these:
+!.editorconfig
+!.gitattributes
+!.github
+!.gitignore
+!.pre-commit-config.yaml
+
+# Other ignores
+node_modules
