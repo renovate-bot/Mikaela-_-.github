@@ -1,2 +1,3 @@
-# If no protocol is specified, http:// is assumed.
-custom: "https://revolut.me/aminda"
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+# NOTE: If no protocol is specified, http:// is assumed.
+custom: ["https://liberapay.com/Mikaela", "https://revolut.me/aminda"]
