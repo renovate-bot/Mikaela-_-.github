@@ -9,7 +9,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -29,7 +29,7 @@ repos:
       - id: check-pre-commit-ci-config
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.27.3
+    rev: 0.28.5
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
