@@ -6,6 +6,8 @@
 !.github
 !.gitignore
 !.pre-commit-config.yaml
+!.prettierrc
 
 # Other ignores
 node_modules
+pnpm-lock.yaml
