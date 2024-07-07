@@ -5,10 +5,7 @@
 ci:
   # https://github.com/pre-commit-ci/issues/issues/83
   autoupdate_schedule: quarterly
-  skip: [prettier]
-
-default_language_version:
-  python: pypy3
+  skip: [pnpm-install-dev, prettier]
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -32,17 +29,27 @@ repos:
       - id: check-pre-commit-ci-config
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.28.5
+    rev: 0.28.6
     hooks:
       - id: check-dependabot
       - id: check-github-workflows
 
   - repo: local
     hooks:
+      - id: pnpm-install-dev
+        name: Install pnpm dev dependencies
+        entry: corepack pnpm install -D
+        language: system
+        always_run: true
+        #verbose: true
+        pass_filenames: false
       - id: prettier
         name: prettier
-        entry: pnpm exec prettier --cache --ignore-unknown --write
+        entry: corepack pnpm exec prettier --cache --ignore-unknown --write
         language: system
+        # Better handled by pretty-format-json from pre-commit-hooks.
+        # Remember to have *.json in .prettierignore!
+        exclude_types: [json]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: "2.7.3"
