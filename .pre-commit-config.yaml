@@ -11,17 +11,20 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
-      - id: check-added-large-files
-      - id: check-case-conflict
-      - id: check-yaml
-      - id: check-shebang-scripts-are-executable
-      - id: destroyed-symlinks
-      - id: detect-private-key
-      - id: end-of-file-fixer
-      - id: fix-byte-order-marker
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext", "md,markdown"]
-        exclude_types: [svg, tsv]
+      - id: check-yaml
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-json
+      - id: check-merge-conflict
+      - id: destroyed-symlinks
+      - id: detect-private-key
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+        args: [--fix=auto]
+      - id: pretty-format-json
+        args: [--autofix, --no-ensure-ascii]
 
   - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
     rev: v1.6.1
@@ -47,9 +50,6 @@ repos:
         name: prettier
         entry: corepack pnpm exec prettier --cache --ignore-unknown --write
         language: system
-        # Better handled by pretty-format-json from pre-commit-hooks.
-        # Remember to have *.json in .prettierignore!
-        exclude_types: [json]
 
   - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
     rev: "2.7.3"

@@ -7,6 +7,7 @@
 !.gitignore
 !.pre-commit-config.yaml
 !.prettierrc
+!.prettierignore
 !.nvmrc
 
 # Other ignores
